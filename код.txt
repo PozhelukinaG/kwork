@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-
+<!DOCTYPE HTML>
 <html>
-
-
-	
- <head>	
-	
+ <head>
+  <meta charset="utf-8">
+  <title>Voronoi</title>
  </head>
- <body>
+<body onLoad="document.bgColor='#daeef3'">
 
-</body>
+<canvas id="diagramCanvas" width="1350" height="600" style="background-color: #999999;">
+ Извините, канва недоступна в вашем бруазере
+</canvas>
 
+  <script src="func.js">
+</script>
 
+<noscript>Извините, требуется включённый Javascript для работы приложения!</noscript>
 
-</html>
-
-
+</body></html>
