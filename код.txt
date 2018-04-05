@@ -4,15 +4,19 @@
   <meta charset="utf-8">
   <title>Voronoi</title>
  </head>
-<body onLoad="document.bgColor='#daeef3'">
 
-<canvas id="diagramCanvas" width="1350" height="600" style="background-color: #999999;">
- Извините, канва недоступна в вашем бруазере
-</canvas>
+ <body onLoad="document.bgColor='#daeef3'">
+	<p align="center" style="color:#2c5928; font-size:30px">
+	Диаграмма Вороновского</p>
+	<div style="text-align:center">
+        <canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
+ 	Извините, канва недоступна в вашем бруазере
+	</canvas>
+	</div>
+	<script src="func.js">
+	</script>
+	<noscript>Извините, требуется включённый Javascript для работы приложения!
+	</noscript>
 
-  <script src="func.js">
-</script>
-
-<noscript>Извините, требуется включённый Javascript для работы приложения!</noscript>
-
-</body></html>
+ </body>
+</html>
