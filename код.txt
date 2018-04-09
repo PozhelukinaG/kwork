@@ -19,7 +19,6 @@
 	</noscript>
 <br>
 Pictures-in-motion of a fractale tree
-Это Gif-изображение фрактального дерева
 <br>
 <img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" style="border:3px solid aquamarine;" width=100 heigth=100>
 <img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" style="border:3px solid green;" width=100 heigth=100>
