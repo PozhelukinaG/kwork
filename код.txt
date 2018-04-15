@@ -36,7 +36,7 @@ Pictures-in-motion of a fractale tree
     position: relative; right: 210px; bottom:0px;
     outline: 3px solid #2c5928; /* Внешняя рамка */
     border: 2px solid  #00BFFF; /* Внутренняя рамка */
-    margin: 10px 0 0px 0;  /* Отступы */
+    margin: 20px 0 0px 0;  /* Отступы */
 }
 </style>
 <img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="rightimg">
