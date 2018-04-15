@@ -20,7 +20,21 @@
 <br>
 Pictures-in-motion of a fractale tree
 <br>
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" border="0" style="position: absolute; right: 0px; bottom: 0px;" width=100 heigth=100>
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" border="0" style="position: absolute; left: 0px; bottom: 0px;" width=90 heigth=90>
+<style>
+.rightimg  {
+    width: 150px;	height: 150px; /* Размеры */
+    position: relative; left:1300px; bottom:0px;
+    outline: 3px solid #2c5928; /* Внешняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
+   }
+.leftimg {
+    width: 150px;	height: 150px; /* Размеры */
+    position: relative; right: 210px; bottom:0px;
+    outline: 3px solid #2c5928; /* Внешняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
+}
+</style>
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="rightimg">
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="leftimg">
  </body>
 </html>
