@@ -20,8 +20,8 @@
 <br>
 Pictures-in-motion of a fractale tree
 <br>
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" style="border:3px solid aquamarine;" width=100 heigth=100>
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" style="border:3px solid green;" width=90 heigth=90>
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" border="0" style="position: absolute; right: 0px; bottom: 0px;" width=100 heigth=100>
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" border="0" style="position: absolute; right: 0px; bottom: 0px;" width=90 heigth=90>
 Фракта́л (лат. fractus — дроблёный, сломанный, разбитый) — множество, обладающее свойством самоподобия (объект, в точности или приближённо совпадающий с частью себя самого, то есть целое имеет ту же форму, что и одна или более частей). В математике под фракталами понимают множества точек в евклидовом пространстве, имеющие дробную метрическую размерность (в смысле Минковского или Хаусдорфа), либо метрическую размерность, отличную от топологической, поэтому их следует отличать от прочих геометрических фигур, ограниченных конечным числом звеньев.
  </body>
 </html>
