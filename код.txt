@@ -26,7 +26,7 @@ Pictures-in-motion of a fractale tree
 .rightimg  {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; left:1300px; bottom:0px;
-    outline: 3px solid #2c5928; /* Внешняя рамка */
+    outline: 3px solid #daeef3; /* Внешняя рамка */
     border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0; /* Отступы */
    }
@@ -34,7 +34,7 @@ Pictures-in-motion of a fractale tree
 .leftimg {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; right: 210px; bottom:0px;
-    outline: 3px solid #2c5928; /* Внешняя рамка */
+    outline: 3px solid #daeef3; /* Внешняя рамка */
     border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0;  /* Отступы */
 }
