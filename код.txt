@@ -42,7 +42,6 @@
 .rightimg  {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; left:1300px; bottom:0px;
-    outline: 3px solid #daeef3; /* Внешняя рамка */
     border: 2px solid  #c4d6da; /* Внутренняя рамка */
     margin: 20px 0 0px 0; /* Отступы */
    }
@@ -50,7 +49,6 @@
 .leftimg {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; right: 210px; bottom:0px;
-    outline: 3px solid #daeef3; /* Внешняя рамка */
     border: 2px solid  #c4d6da; /* Внутренняя рамка */
     margin: 20px 0 0px 0;  /* Отступы */
 }
