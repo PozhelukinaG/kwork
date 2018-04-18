@@ -63,7 +63,7 @@ alert('С возвращением!');
     margin: 20px 0 0px 0;  /* Отступы */
 }
 </style>
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="rightimg">
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="leftimg">
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale" class="rightimg">
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale" class="leftimg">
  </body>
 </html>
