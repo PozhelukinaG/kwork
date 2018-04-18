@@ -4,28 +4,38 @@
   <meta charset="utf-8">
   <title>Voronoi</title>
  </head>
-<style>
+ <style>
+   
    h0 {
     font-weight: bold;
-}
-</style>
- <body onLoad="document.bgColor='#daeef3'">
-<script>
-var q=confirm("Вы в первый раз на сайте?")
-if (q==true)
-{
-alert ('Добро пожаловать!');}
-else
-{
-alert('С возвращением!');
-}
-</script>
+   }
+ </style>
+ 
+	<body onLoad="document.bgColor='#daeef3'">
+	
+	<script>
+	var q=confirm("Вы в первый раз на сайте?")
+	if (q==true)
+	{
+	alert ('Добро пожаловать!');}
+	else
+	{
+	alert('С возвращением!');
+	}
+	</script>
+	
 	<p align="center" style="color:#2c5928; font-size:30px">
 	Диаграмма Вороного</p>
 <p align="justify"><h0> Диаграмма Вороного </h0> конечного множества точек S на плоскости представляет такое разбиение плоскости, при котором каждая область этого разбиения образует множество точек, более близких к одному из элементов множества S, чем к любому другому элементу множества.
 Названа в честь российского учёного Георгия Феодосьевича Вороного. Также известна как: мозаика Вороного, разбиение Вороного, разбиение Дирихле.</p>
 	<div style="text-align:center">
-        <canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
+        
+	<p>Выберите метрику: <input type="button" onclick="Metrics1(1)"value="Евклидова" id="elem">
+	<input type="button" onclick="Metrics2(2)"value="Манхэттенская" id="elem">
+	<input type="button" onclick="Metrics3(3)"value="Минковского" id="elem">
+	<input type="button" onclick=" location.reload() "value="Очистить" id="elem"></p>	
+	
+	<canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
  	Извините, канва недоступна в вашем браузере
 	</canvas>
 	</div>
