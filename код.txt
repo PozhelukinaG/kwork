@@ -2,13 +2,16 @@
 <html>
  <head>
   <meta charset="utf-8">
-  <title>Voronoi</title>
+  <title>Диаграмма Вороного</title>
  </head>
  <style>
    
    h0 {
     font-weight: bold;
    }
+   .resize a:nth-child(1){font-size:16px;}
+   .resize a:nth-child(2){font-size:20px;}
+   .resize a:nth-child(3){font-size:24px;}
  </style>
  
 	<body onLoad="document.bgColor='#daeef3'">
@@ -22,18 +25,41 @@
 	{
 	alert('С возвращением!');
 	}
-	</script>
+
+	var tit = document.title;
+	var c = 0;
 	
+	function writetitle() {
+ 	document.title = tit.substring(0,c);
+  	  if(c==tit.length) {
+    	     c = 0;setTimeout("writetitle()", 3000)
+  	   } else {
+   		 c++;
+    		setTimeout("writetitle()", 200)
+  		}
+	}
+	writetitle()
+	</script>
+
+	<p>Для изменения размера шрифта нажимайте большую или маленькую букву.
+		Средняя возвращает шрифт в значение по-умолчанию:
+
+	<span class="resize"><a href="" onclick="return resize(-1)">A</a><a href="" onclick="return resize(0)">A</a><a href="" onclick="return resize(+1)">A</a></span>
+	</p>
+	<script src="text.js">
+	</script>
+
 	<p align="center" style="color:#2c5928; font-size:30px">
 	Диаграмма Вороного</p>
 <p align="justify"><h0> Диаграмма Вороного </h0> конечного множества точек S на плоскости представляет такое разбиение плоскости, при котором каждая область этого разбиения образует множество точек, более близких к одному из элементов множества S, чем к любому другому элементу множества.
 Названа в честь российского учёного Георгия Феодосьевича Вороного. Также известна как: мозаика Вороного, разбиение Вороного, разбиение Дирихле.</p>
 	<div style="text-align:center">
         
-	<p>Выберите метрику: <input type="button" onclick="Metrics1(1)"value="Евклидова" id="elem">
+	<p>Выберите метрику:</p>
+	<p><input type="button" onclick="Metrics1(1)"value="Евклидова" id="elem">
 	<input type="button" onclick="Metrics2(2)"value="Манхэттенская" id="elem">
 	<input type="button" onclick="Metrics3(3)"value="Минковского" id="elem">
-	<input type="button" onclick=" location.reload() "value="Очистить" id="elem"></p>	
+	<input type="button" onclick=" location.reload() "value="Обновить" id="elem"></p>	
 	
 	<canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
  	Извините, канва недоступна в вашем браузере
