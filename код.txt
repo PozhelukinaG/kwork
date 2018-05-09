@@ -13,18 +13,7 @@
    .resize a:nth-child(2){font-size:20px;}
    .resize a:nth-child(3){font-size:24px;}
  </style>
- 
 	<body onLoad="document.bgColor='#daeef3'">
-	
-	<script>
-	var q=confirm("Вы в первый раз на сайте?")
-	if (q==true)
-	{
-	alert ('Добро пожаловать!');}
-	else
-	{
-	alert('С возвращением!');
-	}
 
 	var tit = document.title;
 	var c = 0;
@@ -100,6 +89,5 @@
 }
 </style>
 <img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="rightimg">
-<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="leftimg">
  </body>
 </html>
