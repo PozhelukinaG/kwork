@@ -8,6 +8,10 @@
    h0 {
     font-weight: bold;
 }
+   body {
+    background: url(http://pt-blog.ru/wp-content/uploads/2017/08/5-PP5-HD.f00573e2.png); /* Цвет фона и путь к файлу */
+    color:  #000;
+   }
 </style>
  <body onLoad="document.bgColor='#daeef3'">
 <script>
@@ -52,14 +56,14 @@ alert('С возвращением!');
 .rightimg  {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; left:1300px; bottom:0px;
-    border: 2px solid  #c4d6da; /* Внутренняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0; /* Отступы */
    }
 
 .leftimg {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; right: 210px; bottom:0px;
-    border: 2px solid  #c4d6da; /* Внутренняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0;  /* Отступы */
 }
 </style>
