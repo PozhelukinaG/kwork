@@ -12,6 +12,10 @@
    .resize a:nth-child(1){font-size:16px;}
    .resize a:nth-child(2){font-size:20px;}
    .resize a:nth-child(3){font-size:24px;}
+   body {
+    background: #00BFFF url(http://pointypapers.com/static/media/PP5-5K.82e3fbbe.png); /* Цвет фона и путь к файлу */
+    color: #000;
+   }
  </style>
 	<body onLoad="document.bgColor='#daeef3'">
 
@@ -77,14 +81,14 @@
 .rightimg  {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; left:1300px; bottom:0px;
-    border: 2px solid  #c4d6da; /* Внутренняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0; /* Отступы */
    }
 
 .leftimg {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; right: 210px; bottom:0px;
-    border: 2px solid  #c4d6da; /* Внутренняя рамка */
+    border: 2px solid  #00BFFF; /* Внутренняя рамка */
     margin: 20px 0 0px 0;  /* Отступы */
 }
 </style>
