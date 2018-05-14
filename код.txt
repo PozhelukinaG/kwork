@@ -19,21 +19,6 @@
  </style>
 	<body onLoad="document.bgColor='#daeef3'">
 
-	var tit = document.title;
-	var c = 0;
-	
-	function writetitle() {
- 	document.title = tit.substring(0,c);
-  	  if(c==tit.length) {
-    	     c = 0;setTimeout("writetitle()", 3000)
-  	   } else {
-   		 c++;
-    		setTimeout("writetitle()", 200)
-  		}
-	}
-	writetitle()
-	</script>
-
 	<p>Для изменения размера шрифта нажимайте большую или маленькую букву.
 		Средняя возвращает шрифт в значение по-умолчанию:
 
