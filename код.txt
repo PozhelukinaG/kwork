@@ -13,7 +13,8 @@
    .resize a:nth-child(2){font-size:20px;}
    .resize a:nth-child(3){font-size:24px;}
    body {
-    background: #00BFFF url(http://pointypapers.com/static/media/PP5-5K.82e3fbbe.png); /* Цвет фона и путь к файлу */
+    background: #00BFFF url(http://pt-blog.ru/wp-content/uploads/2017/08/5-PP5-HD.f00573e2.png); /* Цвет фона и путь к файлу */
+    background-size: cover;
     color: #000;
    }
  </style>
@@ -49,20 +50,6 @@
 	</noscript>
 <br>
 <style>
-   h1 {
-    font-style: oblique;  /* Наклонное начертание.  */
-    font-size: 14pt;
-}
-
-   d {
-    font-style: italic; /* Курсивное начертание */
-   }
-  </style>
-<h1>Pictures-in-motion of a fractale tree</h1>
-<p align="justify"><d>
-Фракта́л (лат. fractus — дроблёный, сломанный, разбитый) — множество, обладающее свойством самоподобия (объект, в точности или приближённо совпадающий с частью себя самого, то есть целое имеет ту же форму, что и одна или более частей). В математике под фракталами понимают множества точек в евклидовом пространстве, имеющие дробную метрическую размерность (в смысле Минковского или Хаусдорфа), либо метрическую размерность, отличную от топологической, поэтому их следует отличать от прочих геометрических фигур, ограниченных конечным числом звеньев.
-</p></d>
-<style>
 .rightimg  {
     width: 200px;	height: 200px; /* Размеры */
     position: relative; left:1300px; bottom:0px;
@@ -78,5 +65,6 @@
 }
 </style>
 <img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="rightimg">
+<img src="http://ipic.su/img/img7/fs/frac.1523207010.gif" title="Fractale Tree" class="leftimg">
  </body>
 </html>
