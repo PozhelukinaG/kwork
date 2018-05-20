@@ -5,15 +5,15 @@
   <title>Диаграмма Вороного</title>
  </head>
  <style>
-   
-   h0 {
-    font-weight: bold;
+    h0 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
    }
    .resize a:nth-child(1){font-size:16px;}
    .resize a:nth-child(2){font-size:20px;}
    .resize a:nth-child(3){font-size:24px;}
    body {
-    background: #00BFFF url(http://pt-blog.ru/wp-content/uploads/2017/08/5-PP5-HD.f00573e2.png); /* Цвет фона и путь к файлу */
+    background: #00BFFF url(http://pt-blog.ru/wp-content/uploads/2017/08/5-PP5-HD.f00573e2.png) no-repeat center center fixed; /* Цвет фона и путь к файлу */
     background-size: cover;
     color: #000;
    }
@@ -28,18 +28,66 @@
 	<script src="text.js">
 	</script>
 
-	<p align="center" style="color:#2c5928; font-size:30px">
-	Диаграмма Вороного</p>
-<p align="justify"><h0> Диаграмма Вороного </h0> конечного множества точек S на плоскости представляет такое разбиение плоскости, при котором каждая область этого разбиения образует множество точек, более близких к одному из элементов множества S, чем к любому другому элементу множества.
+	<p align="center" style="color:#2c5928; font-size:30px"><h0>
+	Диаграмма Вороного</h0></p>
+<p align="justify"> Диаграмма Вороного конечного множества точек S на плоскости представляет такое разбиение плоскости, при котором каждая область этого разбиения образует множество точек, более близких к одному из элементов множества S, чем к любому другому элементу множества.
 Названа в честь российского учёного Георгия Феодосьевича Вороного. Также известна как: мозаика Вороного, разбиение Вороного, разбиение Дирихле.</p>
 	<div style="text-align:center">
         
-	<p>Выберите метрику:</p>
-	<p><input type="button" onclick="Metrics1(1)"value="Евклидова" id="elem">
-	<input type="button" onclick="Metrics2(2)"value="Манхэттенская" id="elem">
-	<input type="button" onclick="Metrics3(3)"value="Минковского" id="elem">
-	<input type="button" onclick=" location.reload() "value="Обновить" id="elem"></p>	
-	
+	<p>Выберите метрику:</p>	
+<style>
+html {height: 100%}
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 20px;
+  position: relative;
+  color: black;
+  border: 1px solid rgba(255,255,255,.4);
+  background: none;
+  font-weight: 100;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+a:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+}
+a:hover:before,
+a:hover:after{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+a:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+a:hover {background: rgba(255,255,255,.2);}
+</style>	
+		<div class="button-container">
+        <a href="">Евклидова</a><a href="">Манхэттенская</a><a href="">Минковского</a><a href="">Обновить</a>
+    </div>	
 	<canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
  	Извините, канва недоступна в вашем браузере
 	</canvas>
