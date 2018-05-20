@@ -86,7 +86,7 @@ a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease w
 a:hover {background: rgba(255,255,255,.2);}
 </style>	
 		<div class="button-container">
-        <a href="">Евклидова</a><a href="">Манхэттенская</a><a href="">Минковского</a><a href="">Обновить</a>
+        <a href="" onclick="Metrics1(1); return false;">Евклидова</a><a href="" onclick="Metrics2(2); return false;">Манхэттенская</a><a href="" onclick="Metrics3(3); return false;">Минковского</a><a href="">Обновить</a>
     </div>	
 	<canvas id="diagramCanvas" width="900" height="600" style="background-color: #FFF;">
  	Извините, канва недоступна в вашем браузере
