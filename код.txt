@@ -88,7 +88,7 @@ a:hover {background: rgba(255,255,255,.2);}
 		<div class="button-container">
         <a href="">Евклидова</a><a href="">Манхэттенская</a><a href="">Минковского</a><a href="">Обновить</a>
     </div>	
-	<canvas id="diagramCanvas" width="800" height="500" style="background-color: #999999;">
+	<canvas id="diagramCanvas" width="900" height="600" style="background-color: #FFF;">
  	Извините, канва недоступна в вашем браузере
 	</canvas>
 	</div>
