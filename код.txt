@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+﻿<!DOCTYPE HTML>
 <html>
  <head>
   <meta charset="utf-8">
@@ -18,8 +18,8 @@
     color: #000;
    }
    .layer1 {
-    width: 900px; /* Ширина слоя */
-    margin-left: 220px; /* Обтекание по правому краю */
+    margin: 0 20% 0 20%;
+    position: relative;
 }
  </style>
 	<body onLoad="document.bgColor='#daeef3'">
